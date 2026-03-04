@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ ScopeShield
 
-## Getting Started
+**Freelancer SOW Generator with Scope Creep Protection Intelligence**
 
-First, run the development server:
+Stop losing money to scope creep. Generate professional Statements of Work with built-in intelligence that catches problems before they cost you money.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 **Live:** [henry-scopeshield.vercel.app](https://henry-scopeshield.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### SOW Builder Wizard (5 Steps)
+1. **Project Basics** — Client name, project name, project type selection
+2. **Scope & Exclusions** — Template-based scope items + explicit exclusions (key differentiator)
+3. **Pricing & Milestones** — Fixed/hourly/retainer with milestone payment schedule
+4. **Terms & Protections** — Revision limits, change request fees, kill fee, IP ownership
+5. **Review & Score** — Full intelligence analysis before saving
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 6 Intelligence Layers
+1. **Scope Completeness Score (A-F, 0-100)** — Grades your SOW based on sections, specificity, protections
+2. **Creep Risk Analysis** — Flags vague language ("as needed", "ongoing support") with rewrite suggestions
+3. **Missing Section Detection** — Compares against best-practice SOW template
+4. **Rate Benchmarking** — Market rate comparison with visual positioning
+5. **Change Order Templates** — Auto-generated change request forms
+6. **Milestone Payment Calculator** — Smart payment schedule suggestions
 
-## Learn More
+### 8 Project Type Templates
+Web Development, Graphic Design, Marketing/Content, Consulting, Video Production, Photography, Writing/Copywriting, and Custom — each with 8-15 scope items and common exclusions.
 
-To learn more about Next.js, take a look at the following resources:
+### Professional Document Output
+- Print-ready SOW (window.print() → clean PDF)
+- Signature blocks for both parties
+- Scope grade badge on document
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Supabase (Auth + Database + RLS)
+- Deployed on Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Built by Henry the Great 🗿
